@@ -4,7 +4,7 @@ const cors = require('cors');
 require('dotenv').config();
 
 
-const mongoURI = process.env.MONGO_URI
+const mongoURI = process.env.MONGO_URI;
 
 mongoose.connect(mongoURI, {
   useNewUrlParser: true,
